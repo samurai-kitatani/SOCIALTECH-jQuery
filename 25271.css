@@ -1,0 +1,16 @@
+/* スマートフォン用スタイル */
+@media screen and (max-width: 767px) { 
+
+	/* ページ全体幅 */ 
+
+	body { min-width: 375px; margin: 0; } 
+
+	nav { display: none; } 
+
+	.nav-sp { position: absolute; top: 0; left: 0; background-color: #2710d5; width: 100%; height: 100%; z-index: 100; display: none; }
+
+	.nav-menu-sp {
+		float: right;
+		padding: 0;
+	}
+}
